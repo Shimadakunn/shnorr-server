@@ -13,7 +13,7 @@ COPY schnorr_server.py schnorr_server.py
 RUN pip install --no-cache-dir -r requirement.txt
 
 #Expose the port
-EXPOSE 5000
+EXPOSE 5001
 
 #Run the application
 CMD ["python", "schnorr_server.py"]
